@@ -1,14 +1,17 @@
 [package]
-name = "octocrab"
+name = "cargo-skyline-octocrab"
 version = "0.16.0"
 authors = ["XAMPPRocky <xampprocky@gmail.com>"]
 edition = "2018"
 readme = "README.md"
-homepage = "https://github.com/XAMPPRocky/octocrab"
-repository = "https://github.com/XAMPPRocky/octocrab.git"
+homepage = "https://github.com/jam1garner/octocrab"
+repository = "https://github.com/jam1garner/octocrab.git"
 description = "A modern, extensible GitHub API client."
 license = "Apache-2.0/MIT"
-documentation = "https://docs.rs/octocrab"
+documentation = "https://docs.rs/cargo-skyline-octocrab"
+
+[lib]
+name = "octocrab"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [package.metadata.docs.rs]
